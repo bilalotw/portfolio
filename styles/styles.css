@@ -414,6 +414,7 @@ body {
   
 /* Footer Section */
 .footer {
+    font-size: medium;
     margin: 0;
     padding: 1.5rem;
     color: black;
