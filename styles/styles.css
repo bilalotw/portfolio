@@ -414,7 +414,6 @@ body {
   
 /* Footer Section */
 .footer {
-    font-size: medium;
     margin: 0;
     padding: 1.5rem;
     color: black;
@@ -424,4 +423,5 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #f2f2f2;
+    font-size: medium;
   }
