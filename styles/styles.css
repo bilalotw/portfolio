@@ -14,7 +14,30 @@ body {
     text-align: center;
   }
 
+/*topnav*/
+.topnav{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 10px;
+}
+.topnav a{
+  padding: 5px;
+  
+  transition: background-color 0.2s font 0.3s;
+}
+.topnav button{
+  width: auto;
+  border-radius: 15px;
+  background-color: #007BFF;
+font: 18px solid rgb(235, 235, 235);
+  padding: 10px;
 
+}
+.topnav a :hover{
+background-color: #f2f2f2;
+font: 18px solid rgb(0, 0, 0);
+}
 
   
 /* Contact Section */
