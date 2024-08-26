@@ -39,7 +39,29 @@ background-color: #f2f2f2;
 font: 18px solid rgb(0, 0, 0);
 }
 
-  
+  @media (max-width:900px) {
+    
+.topnav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.topnav button{
+  width: 08em;
+  border-radius: 15px;
+  background-color: #007BFF;
+font: 2px solid rgb(235, 235, 235);
+  padding: 10px;
+
+}
+.topnav a :hover{
+background-color: #f2f2f2;
+font: 10px solid rgb(0, 0, 0);
+}
+    
+  }
 /* Contact Section */
 .contact {
     display: flex;
