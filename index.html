@@ -11,18 +11,21 @@
     />
   </head>
   <body>
-    <div class="topnav">
-      <a href="/"><button> Home</button>
-      </a>
-      <a href="#Education"><button> Education</button>
-      </a>
-      <a href="#skills"><button> Skills</button>
-      </a>
-      <a href="#achivements"><button> Achivements</button>
-      </a>
-      <a href="#"><button> Contact</button>
-      </a>
-    </div>
+    <nav class="topnav">
+      <div class="menu-icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+  </nav>
+  <script src="./script.js"></script>
     <marquee direction="right" scrollamount="10"
       ><span style="font-size: 50px">&#128760;</span>
     </marquee>
