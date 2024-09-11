@@ -269,7 +269,7 @@ input, textarea {
     width: 75%;
     padding: 20px;
     height: auto;
-    border: 2px solid hsl(0, 0%, 22%);;
+    border: 1px solid hsl(0, 0%, 22%);;
     border-radius: 10px;
     max-width: 100%;
     transition: transform 1.0s ease-in-out;
@@ -281,6 +281,9 @@ input, textarea {
   
   /* Responsive Styles */
   @media (max-width: 768px) {
+    .content{
+      font-size: small;
+    }
     .container {
         flex-direction: column;
         padding: 1rem;
@@ -357,9 +360,7 @@ input, textarea {
     .table-container tbody tr {
         margin-bottom: 15px;
         padding: 10px;
-        border: 1px solid #444;
         border-radius: 5px;
-        background-color: #333;
     }
 
     .table-container  td {
@@ -376,7 +377,6 @@ input, textarea {
         padding-left: 15px;
         font-weight: bold;
         text-align: left;
-        color: #007BFF; /* Accent color for labels */
     }
 }
 
@@ -386,7 +386,7 @@ input, textarea {
 /* Skillset */
 .skillset{
  
-    border: 2px solid rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255); 
     padding: 10px;          
     margin: 10px;           
     box-sizing: border-box;
@@ -530,7 +530,7 @@ input, textarea {
   }
   
   .projects {
-    border: 2px solid rgb(255, 255, 255);
+    border: 1px solid rgb(85, 85, 85);
     padding: 1rem;
     margin: 1rem;
     border-radius: 9px;
@@ -571,7 +571,7 @@ input, textarea {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 2vw;
+   padding: 2vw;
     color:  hsl(0, 0%, 84%);
     max-width: 90vw;
     margin: 0 auto;
@@ -592,7 +592,7 @@ input, textarea {
     .tab {
         width:100%;
         flex-direction: column;
-        padding: 1rem;
+        padding: 0;
     }
   
     .temp {
@@ -651,7 +651,7 @@ input, textarea {
 }
 
 .form-input {
-width: 97%;
+width: 90%;
 
   color: var(--white-2);
   font-size: var(--fs-6);
