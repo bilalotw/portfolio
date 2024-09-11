@@ -282,6 +282,7 @@ input, textarea {
   /* Responsive Styles */
   @media (max-width: 768px) {
     .content{
+      width: 100%;
       font-size: small;
     }
     .container {
@@ -651,7 +652,7 @@ input, textarea {
 }
 
 .form-input {
-width: 90%;
+width: 97%;
 
   color: var(--white-2);
   font-size: var(--fs-6);
@@ -661,7 +662,6 @@ width: 90%;
   border-radius: 14px;
   outline: none;
 }
-
 .form-input::placeholder { font-weight: var(--fw-500); }
 
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
@@ -722,3 +722,20 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+
+@media (max-width: 768px) {
+  
+  .form-input {
+    width: 90%;
+    
+  }
+  .form-btn {
+    width: 100%;
+  }
+  }
+
+  .marquee{
+ 
+    color: #8ebf42;
+    
+    }
