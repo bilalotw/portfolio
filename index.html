@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="topnav">
@@ -34,10 +40,13 @@
     </div>
 
     <div class="contact">
+      
       <h1>
-        <a class="cont" href="mailto:bialapple247@gmail.com">&#128386;</a>
+        <a class="cont" href="mailto:bialapple247@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
       </h1>
-      <h1><a class="cont" href="tel:+919947908170">&#128382;</a></h1>
+      <h1><a class="cont" href="tel:+919947908170"><i class="fa fa-phone" aria-hidden="true"></i>
+      </a></h1>
       <h1>
         <a class="cont" href="https://github.com/bilalotw"
           ><i class="fab fa-github"></i
@@ -178,7 +187,7 @@
         class="tab"
         align="center"
         border="2px solid  "
-        bordercolor="aqua"
+       
         cellpadding="10px">
           <tr>
             
@@ -228,14 +237,66 @@
             
           </tr>
         </table>
-        <div class="yout">
-          <iframe width=100% src="https://www.youtube.com/embed/XaBAEIeWcdM?si=42dPHUiULGIK4mnm&amp;start=3650" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        
       </div>
+<div>
+  
+  <div id="contact" class="section-header">
+    <h1>Contact Me</h1>
+  </div>
+  <div class="mapbox">
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7883.625078502825!2d76.6351296!3d8.8970137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1725975605185!5m2!1sen!2sbd"
+        width="400"
+        height="300"
+        loading="lazy"
+      ></iframe>
+    </figure>
+   </div>
+   
+</div>
+<section class="contact-form">
+  <h3 class="h3 form-title">Contact Form</h3>
 
+  <form action="#" class="form" data-form>
+    <div class="input-wrapper">
+      <input
+        type="text"
+        name="fullname"
+        class="form-input"
+        placeholder="Full name"
+        required
+        data-form-input
+      />
 
+      <input
+        type="email"
+        name="email"
+        class="form-input"
+        placeholder="Email address"
+        required
+        data-form-input
+      />
+    </div>
+
+    <textarea
+      name="message"
+      class="form-input"
+      placeholder="Your Message"
+      required
+      data-form-input
+    ></textarea>
+
+    <button class="form-btn" type="submit" disabled data-form-btn>
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+  </form>
+</section>
+     
       <div class="footer">
-       
+      
     
         <div>
           <h4>Made with Love &#10084; by Bilal </h4>
@@ -245,5 +306,7 @@
         </div>
   
       </div>
+
+      
   </body>
 </html>
